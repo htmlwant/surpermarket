@@ -1,0 +1,17 @@
+@keyframes supersexycoin{
+    from{
+        transform:rotateY(0);
+    }
+    to{transform:rotateY(360deg);
+    }
+}
+body{background:black; height:98vh;}
+#logo{display:flex; height:100%; justify-content: center ; align-items: center;}
+.elephant_coin{width:100vh; display:flex; animation:supersexycoin 10s ease-in-out infinite;}
+#login_help{border:5px solid white; background-color:transparent; width:50vh; height:50vh; display:grid; place-content: center; position:relative; right:30vh;}
+.user_id, .user_pass {width:35vh; height:50px; margin-bottom:10px; background-color:transparent; border:3px solid white; color:white;}
+.submit{width:36vh; height:50px; color:white; background-color:transparent; border:3px solid white;}
+.user_id::placeholder , .user_pass::placeholder{color:white; text-align: center;}
+.elephant > a{text-decoration: none;}
+h2{color:white; text-align: center; font-family: 'Cherry Bomb One', cursive; font-size:4vh; }
+#register>a{color:white; text-align: center; font-family: 'Sunflower', sans-serif;}
